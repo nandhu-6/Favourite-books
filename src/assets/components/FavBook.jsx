@@ -9,7 +9,7 @@ function BookList() {
 
 
 
-    return (<div className="bg-[#FFEAE9]  flex justify-center items-center w-full max-w-2xl m-auto rounded-xl py-6">
+    return (<div className="bg-[#FFEAE9]  flex justify-center items-center w-full max-w-[90vw] md:max-w-2xl m-auto rounded-xl py-2 md:py-6 px-2">
         <div className="">
             {favBooks.length > 0 ? (
                 <ul className="space-y-3">

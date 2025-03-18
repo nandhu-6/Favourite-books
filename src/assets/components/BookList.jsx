@@ -3,7 +3,7 @@ import { BookContext } from "./BookContextProvider";
 
 function BookList() {
     const { books, toggleFavorite } = useContext(BookContext);
-    return (<div className="bg-[#FFEAE9]  flex justify-center items-center w-full max-w-2xl m-auto rounded-xl py-6 px-1">
+    return (<div className="bg-[#FFEAE9]  flex justify-center items-center w-full max-w-[90vw] md:max-w-2xl m-auto rounded-xl py-2 md:py-6 px-2">
         <div className="">
             {books.map((book) => (
                 <li className="flex justify-between items-center my-3 gap-8 text-[#293D3C] text-sm md:text-xl" key={book.id}>
