@@ -27,7 +27,7 @@ function BookList() {
                 </ul>
             ) : 
             (
-                <p className="text-center text-gray-600">No favorite books added yet.</p>
+                <p className="text-center text-gray-600">No favourite books added yet.</p>
             )}
         </div>
 
